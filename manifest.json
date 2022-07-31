@@ -1,0 +1,16 @@
+{
+  "domain": "zoneminder",
+  "name": "ZoneMinder",
+  "documentation": "https://www.home-assistant.io/integrations/zoneminder",
+  "requirements": [
+      "requests>=2.0",
+      "certifi>=2022.6.15",
+      "charset_normalizer>=2.1.0",
+      "idna>=3.3",
+      "urllib3>=1.26.11"
+  ],
+  "codeowners": ["@rohankapoorcom"],
+  "iot_class": "local_polling",
+  "loggers": ["zoneminder"],
+  "version": "1.0.0"
+}
